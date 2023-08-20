@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+    
+}
+
+.navbar_icons {
+    display: flex;
+}
+
+.barplay__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+    list-style: none;
+}
+
+.barplay__navbar-links li {
+    margin-right: 2.5rem;
+}
+
+
+.barplay__navbar-links li:nth-child(2) {
+    font-weight: 800;
+}
+
