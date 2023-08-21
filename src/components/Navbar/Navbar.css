@@ -1,9 +1,9 @@
 .navbar{
     display: flex;
     width: 100%;
-    background-color: antiquewhite;
     position: fixed;
     z-index: 2;
+    color: aliceblue;
     
 }
 
