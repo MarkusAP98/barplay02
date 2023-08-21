@@ -1,7 +1,15 @@
 .barplay__main {
-    position: absolute;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
 }
+
+
+
 .barplay__logo {
     position: absolute;
     z-index: 1;
+    top: 40%;
+    left: 30%;
 }
