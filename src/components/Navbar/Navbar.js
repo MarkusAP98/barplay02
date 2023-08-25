@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { AiFillFacebook, AiFillInstagram, AiFillMessage } from "react-icons/ai";
 
 const Navbar = () => {
   return (
@@ -16,22 +17,26 @@ const Navbar = () => {
             <a>Ruokalista</a>
           </li>
         </ul>
-        <div className="navbar_icons">
+        <div className="navbar_social-media">
           <ul>
             <li>
               <a>
-                
+                <AiFillFacebook />
               </a>
             </li>
             <li>
-              <a>Ig</a>
+              <a>
+                <AiFillInstagram />
+              </a>
             </li>
             <li>
-              <a>Viesti</a>
+              <a>
+                <AiFillMessage />
+              </a>
             </li>
           </ul>
         </div>
-        <button>Varaa aikasi</button>
+        <button className="barplay_navbar-btn">Varaa aikasi</button>
       </div>
     </>
   );
