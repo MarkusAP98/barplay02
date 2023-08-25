@@ -7,8 +7,16 @@
     
 }
 
-.navbar_icons {
+.navbar_social-media ul {
     display: flex;
+    font-size: 2rem;
+    list-style: none;
+    margin: 2rem;
+
+}
+
+.navbar_social-media li {
+    margin: 1rem;
 }
 
 .barplay__navbar-links{
