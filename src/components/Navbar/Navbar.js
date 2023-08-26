@@ -20,23 +20,23 @@ const Navbar = () => {
         <div className="navbar_social-media">
           <ul>
             <li>
-              <a>
+              <a className="navbar-icons">
                 <AiFillFacebook />
               </a>
             </li>
             <li>
-              <a>
+              <a className="navbar-icons">
                 <AiFillInstagram />
               </a>
             </li>
             <li>
-              <a>
+              <a className="navbar-icons">
                 <AiFillMessage />
               </a>
             </li>
           </ul>
         </div>
-        <button className="barplay_navbar-btn">Varaa aikasi</button>
+        <button className="barplay__navbar-btn">Varaa aikasi</button>
       </div>
     </>
   );
