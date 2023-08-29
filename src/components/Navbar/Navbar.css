@@ -1,53 +1,49 @@
-.navbar{
-    display: flex;
-    width: 100%;
-    position: fixed;
-    z-index: 2;
-    color: aliceblue;
-    height: 3rem;
-    margin: 1rem;
+.navbar {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  color: aliceblue;
+  height: 3rem;
+  margin: 1rem;
 }
 
 .navbar_social-media ul {
-    display: flex;
-    font-size: 1.5rem;
-    list-style: none;
-    margin-right: 1.5rem;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  font-size: 1.5rem;
+  list-style: none;
+  margin-right: 1.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar_social-media li {
-    margin-right: 2rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: -13px;
-
+  margin-right: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: -13px;
 }
 
 .navbar_social-media li:hover {
-    color: aqua;
-    cursor: pointer;
-    margin-bottom: -4px;
+  color: aqua;
+  cursor: pointer;
+  margin-bottom: -4px;
 }
 
+.barplay__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25rem;
+  font-size: 1.1rem;
 
-.barplay__navbar-links{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 25rem;
-    font-size: 1.1rem;
-
-    list-style: none;
+  list-style: none;
 }
 
 .barplay__navbar-links li {
-    margin-right: 3.2rem;
-    cursor: pointer;
-
+  margin-right: 3.2rem;
+  cursor: pointer;
 }
 
 .barplay__navbar-links li a {
@@ -69,34 +65,34 @@
 }
 
 .barplay__navbar-links li a:hover::before {
-  transform: scaleX(1); }
-
-.barplay__navbar-links li:nth-child(2) {
-    cursor: pointer;
-    margin-bottom: 0px;
-    text-decoration: none;
+  transform: scaleX(1);
 }
 
+.barplay__navbar-links li:nth-child(2) {
+  cursor: pointer;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
 
- #barplay-joensuu{
-    display: flex;
-    align-items: center;
-    justify-content:center ;
-    margin-top: -18px;
-    text-decoration: none;
+#barplay-joensuu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -18px;
+  text-decoration: none;
 }
 
 .barplay__navbar-btn {
-    background-color: #A62626;
-    border: none;
-    color: aliceblue;
-    font-size: 18px;
-    font-weight: 700;
-    margin-right: 50px;
-    padding: 5px 20px 5px 20px;
-    border-radius: 5px;
+  background-color: #a62626;
+  border: none;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 50px;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
 }
 
 .barplay__navbar-btn:hover {
-    cursor: pointer;
+  cursor: pointer;
 }

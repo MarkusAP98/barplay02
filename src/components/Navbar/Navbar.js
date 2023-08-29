@@ -11,7 +11,8 @@ const Navbar = () => {
             <a>Kokoustilat</a>
           </li>
           <li className="barplay__links">
-            <a><p>Bar Play Joensuu</p>
+            <a>
+              <p>Bar Play Joensuu</p>
               <p id="barplay-joensuu">joensuu</p>
             </a>
           </li>
