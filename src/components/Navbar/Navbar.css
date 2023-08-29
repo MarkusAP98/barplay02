@@ -39,18 +39,32 @@
     justify-content: center;
     align-items: center;
     margin-left: 25rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
     list-style: none;
 }
 
 .barplay__navbar-links li {
-    margin-right: 3.5rem;
+    margin-right: 3.2rem;
+    cursor: pointer;
+
 }
 
 
 .barplay__navbar-links li:nth-child(2) {
-    font-weight: 800;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.barplay__navbar-links li:nth-child(2):hover {
+    text-decoration: underline;
+}
+
+ #barplay-joensuu{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin-top: -18px;
 }
 
 .barplay__navbar-btn {
