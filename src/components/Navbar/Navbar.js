@@ -46,42 +46,47 @@ const Navbar = () => {
           <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => {}} />
 
           <div className="barplay__navbar-smallscreen_overlay flex__center slide-bottom">
-            <RxCross2
-              fontSize={27}
-              className="overlay__close"
-              onClick={() => {}}
-            />
-            <ul className="barplay__navbar-smallscreen-links">
-              <li className="barplay__links">
-                <a>Kokoustilat</a>
-              </li>
-              <li className="barplay__links-smallscreen">
+            <div className="barplay__smallscreen-barplay_joensuu">
+              <li className="barplay__links-smallscreen-joensuu">
                 <a>
                   <p>Bar Play Joensuu</p>
-                  <p id="barplay-joensuu-smallscreen">joensuu</p>
                 </a>
               </li>
-              <li className="barplay__links-smallscreen">
-                <a>Ruokalista</a>
-              </li>
-            </ul>
-            <ul className="barplay__navbar-smallscreen-links-icons">
-              <li>
-                <a className="navbar-icons">
-                  <AiFillFacebook />
-                </a>
-              </li>
-              <li>
-                <a className="navbar-icons">
-                  <AiFillInstagram />
-                </a>
-              </li>
-              <li>
-                <a className="navbar-icons">
-                  <AiFillMessage />
-                </a>
-              </li>
-            </ul>
+              <RxCross2
+                fontSize={27}
+                className="overlay__close"
+                onClick={() => {}}
+              />
+            </div>
+
+            <div className="navbar__list-icons">
+              <ul className="barplay__navbar-smallscreen-links">
+                <li className="barplay__links-smallscreen">
+                  <a>Kokoustilat</a>
+                </li>
+                <br/>
+                <li className="barplay__links-smallscreen">
+                  <a>Ruokalista</a>
+                </li>
+              </ul>
+              <ul className="barplay__navbar-smallscreen-links-icons">
+                <li>
+                  <a className="navbar-icons">
+                    <AiFillFacebook />
+                  </a>
+                </li>
+                <li>
+                  <a className="navbar-icons">
+                    <AiFillInstagram />
+                  </a>
+                </li>
+                <li>
+                  <a className="navbar-icons">
+                    <AiFillMessage />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <button className="barplay__navbar-btn">Varaa aikasi</button>

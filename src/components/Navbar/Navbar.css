@@ -107,7 +107,6 @@
   left: 0;
   width: 100%;
   height: 50vh;
-  background-image: linear-gradient(#272727, black);
   transition: 0.5 ease;
   flex-direction: column;
   z-index: 5;
@@ -119,4 +118,48 @@
   right: 20px;
   background-color: aliceblue;
   color: black;
+  cursor: pointer;
+}
+
+.barplay__navbar-smallscreen-links {
+list-style: none;
+cursor: pointer;
+background-image: linear-gradient( #272727,black );
+margin: 0px;
+justify-content: center;
+align-items: center;
+}
+
+.barplay__links-smallscreen {
+  position: relative;
+  left: -40px;
+  padding:2rem;
+  
+}
+
+.barplay__links-smallscreen:hover {
+    background: white;
+    color: #272727;
+    width: 100%;
+}
+
+.barplay__navbar-smallscreen {
+  margin: 5rem;
+}
+
+.barplay__links-smallscreen-joensuu {
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  transition: 0.5 ease;
+}
+.barplay__links-smallscreen-joensuu:hover {
+  text-decoration: underline;
+}
+
+.barplay__smallscreen-barplay_joensuu {
+  background: #272727;
+  padding: 0.5rem;
+  cursor: pointer;
+  list-style: none;
 }
