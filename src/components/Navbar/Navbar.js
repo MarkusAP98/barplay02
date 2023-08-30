@@ -1,6 +1,8 @@
 import React from "react";
 import "./Navbar.css";
 import { AiFillFacebook, AiFillInstagram, AiFillMessage } from "react-icons/ai";
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { RxCross2 } from 'react-icons/rx'
 
 const Navbar = () => {
   return (
