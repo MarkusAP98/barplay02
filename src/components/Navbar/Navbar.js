@@ -1,13 +1,13 @@
 import React from "react";
 import "./Navbar.css";
 import { AiFillFacebook, AiFillInstagram, AiFillMessage } from "react-icons/ai";
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { RxCross2 } from 'react-icons/rx'
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
   return (
     <>
-      <div className="navbar">
+      <nav className="navbar">
         <ul className="barplay__navbar-links">
           <li className="barplay__links">
             <a>Kokoustilat</a>
@@ -42,7 +42,7 @@ const Navbar = () => {
           </ul>
         </div>
         <button className="barplay__navbar-btn">Varaa aikasi</button>
-      </div>
+      </nav>
     </>
   );
 };
