@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <button className="barplay__navbar-btn">Varaa aikasi</button>
+        <button className="barplay__navbar-btn">Varaa pöytä</button>
 
         {/* --------START for smallscreen---------- */}
 
@@ -74,26 +74,37 @@ const Navbar = () => {
                   <a>Ruokalista</a>
                 </li>
               </ul>
+
+              {/* ---------- The start of the Icons --------- */}
+
               <ul className="barplay__navbar-smallscreen-links-icons">
-                <li>
-                  <a className="navbar-icons">
+                <li className="navbar-icons">
+                  <a>
                     <AiFillFacebook />
-                    Facebook
                   </a>
+                  <p>Facebook</p>
                 </li>
-                <li>
-                  <a className="navbar-icons">
+                <li className="navbar-icons">
+                  <a>
                     <AiFillInstagram />
-                    Instagram
                   </a>
+                    <p>Instagram</p>
                 </li>
-                <li>
-                  <a className="navbar-icons">
+                <li className="navbar-icons">
+                  <a>
                     <AiFillMessage />
                   </a>
+                    <p>Palaute</p>
                 </li>
               </ul>
+              <button className="barplay__navbar-smallscreen-btn">
+              Varaa pöytä
+            </button>
             </div>
+
+            {/* ------ Smallscreen Buttom --------- */}
+
+            
           </div>
         </div>
       </nav>
