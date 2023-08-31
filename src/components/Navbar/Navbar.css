@@ -3,7 +3,7 @@
   width: 100%;
   position: fixed;
   z-index: 2;
-  color: aliceblue;
+  color: white;
   height: 3rem;
   margin: 1rem;
 }
@@ -58,7 +58,7 @@
   width: 100%;
   height: 2px;
   bottom: -3px; /* Adjust this value to control the distance between text and underline */
-  background-color: whitesmoke; /* Set your desired underline color */
+  background-color: white; /* Set your desired underline color */
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease; /* Adding a transition to the transform property */
@@ -85,7 +85,7 @@
 .barplay__navbar-btn {
   background-color: #a62626;
   border: none;
-  color: aliceblue;
+  color: white;
   font-size: 18px;
   font-weight: 700;
   margin-right: 50px;
@@ -96,6 +96,8 @@
 .barplay__navbar-btn:hover {
   cursor: pointer;
 }
+
+/* --------small screen overlay ----------*/
 
 .navbar__smallscreen {
   display: ;
@@ -112,39 +114,42 @@
   z-index: 5;
 }
 
-.overlay__close {
+.overlay__close-btn {
   position: absolute;
   top: 20px;
   right: 20px;
+  margin: 0px;
+  width: 3rem;
+  height: 3rem;
   background-color: aliceblue;
   color: black;
   cursor: pointer;
 }
 
+/* ---- Smallscreen links Barplay joensuu/ conatiner ---- */
+
 .barplay__navbar-smallscreen-links {
-list-style: none;
-cursor: pointer;
-background-image: linear-gradient( #272727,black );
-margin: 0px;
-justify-content: center;
-align-items: center;
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 .barplay__links-smallscreen {
   position: relative;
-  left: -40px;
-  padding:2rem;
-  
+  left: -20px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .barplay__links-smallscreen:hover {
-    background: white;
-    color: #272727;
-    width: 100%;
-}
-
-.barplay__navbar-smallscreen {
-  margin: 5rem;
+  background: white;
+  color: #272727;
 }
 
 .barplay__links-smallscreen-joensuu {
@@ -158,8 +163,62 @@ align-items: center;
 }
 
 .barplay__smallscreen-barplay_joensuu {
+  flex-grow: 1;
   background: #272727;
   padding: 0.5rem;
-  cursor: pointer;
   list-style: none;
+  cursor: pointer;
+}
+
+/* ----------List / icons conatainer------- */
+
+.navbar__list-icons {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(#272727, black);
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* -----Start of icons------ */
+
+.barplay__navbar-smallscreen-links-icons {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  margin-left: -40px;
+}
+
+.navbar-icons {
+  border: #282828 solid 1px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: calc(100% / 3);
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.navbar-icons:hover {
+  cursor: pointer;
+}
+
+.navbar-icons a {
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+  margin-right: 15px;
+}
+
+.barplay__navbar-smallscreen-btn {
+  background-color: #a62626;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 2rem;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
 }
