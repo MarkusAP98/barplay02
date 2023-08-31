@@ -41,6 +41,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+        <button className="barplay__navbar-btn">Varaa aikasi</button>
+
+        {/* --------START for smallscreen---------- */}
 
         <div className="navbar__smallscreen">
           <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => {}} />
@@ -54,17 +57,19 @@ const Navbar = () => {
               </li>
               <RxCross2
                 fontSize={27}
-                className="overlay__close"
+                className="overlay__close-btn"
                 onClick={() => {}}
               />
             </div>
+
+            {/* --------start of links and socialmedia------- */}
 
             <div className="navbar__list-icons">
               <ul className="barplay__navbar-smallscreen-links">
                 <li className="barplay__links-smallscreen">
                   <a>Kokoustilat</a>
                 </li>
-                <br/>
+                <br />
                 <li className="barplay__links-smallscreen">
                   <a>Ruokalista</a>
                 </li>
@@ -73,11 +78,13 @@ const Navbar = () => {
                 <li>
                   <a className="navbar-icons">
                     <AiFillFacebook />
+                    Facebook
                   </a>
                 </li>
                 <li>
                   <a className="navbar-icons">
                     <AiFillInstagram />
+                    Instagram
                   </a>
                 </li>
                 <li>
@@ -89,7 +96,6 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <button className="barplay__navbar-btn">Varaa aikasi</button>
       </nav>
     </>
   );

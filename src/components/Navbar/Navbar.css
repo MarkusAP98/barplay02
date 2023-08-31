@@ -97,6 +97,8 @@
   cursor: pointer;
 }
 
+/* --------small screen overlay ----------*/
+
 .navbar__smallscreen {
   display: ;
 }
@@ -112,7 +114,7 @@
   z-index: 5;
 }
 
-.overlay__close {
+.overlay__close-btn {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -122,29 +124,24 @@
 }
 
 .barplay__navbar-smallscreen-links {
-list-style: none;
-cursor: pointer;
-background-image: linear-gradient( #272727,black );
-margin: 0px;
-justify-content: center;
-align-items: center;
+  list-style: none;
+  cursor: pointer;
+  background-image: linear-gradient(#272727, black);
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
 }
 
 .barplay__links-smallscreen {
   position: relative;
   left: -40px;
-  padding:2rem;
-  
+  padding: 2rem;
 }
 
 .barplay__links-smallscreen:hover {
-    background: white;
-    color: #272727;
-    width: 100%;
-}
-
-.barplay__navbar-smallscreen {
-  margin: 5rem;
+  background: white;
+  color: #272727;
+  width: 100%;
 }
 
 .barplay__links-smallscreen-joensuu {
@@ -162,4 +159,9 @@ align-items: center;
   padding: 0.5rem;
   cursor: pointer;
   list-style: none;
+}
+
+.barplay__navbar-smallscreen-links-icons {
+  list-style: none;
+  display: flex;
 }
