@@ -226,9 +226,10 @@
 
 /* --------HambergurMenu--------- */
 
-.navbar__smallscreen-hamburgermenu li {
-  width: rem;
-  background: #272727;
+.navbar__smallscreen-hamburgermenu li,
+.navbar__smallscreen-hamburgermenu p {
+  position: absolute;
+  left: 45%;
   font-size: 16px;
   font-weight: 700;
   list-style: none;
@@ -246,7 +247,14 @@
 
 /* ----mediaquarryes----- */
 
-@media screen and (max-width: 1150px) {
+
+@media screen and (max-width: 1300px) {
+  #barplay-joensuu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1270px) {
   .navbar__smallscreen {
     display: flex;
   }
