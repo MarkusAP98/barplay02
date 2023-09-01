@@ -3,13 +3,13 @@
     display: inline-block;
     width: 100%;
     overflow: hidden;
-    margin-top: -100px;
+    margin-top: -180px;
 }
 
 .barplay__main-img {
     overflow: hidden;
     margin-bottom: -150px;
-    width: 110%;
+    width: 100%;
 }
 
 .barplay__logo {

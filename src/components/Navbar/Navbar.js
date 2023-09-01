@@ -1,15 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { AiFillFacebook, AiFillInstagram, AiFillMessage } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
+  // ------scroll color change system-----
+
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 1) {
+        // Change the scroll threshold as needed
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // ------ Navbar --------
+
   const [toggleMenu, setToggleMenu] = React.useState(false);
 
   return (
     <>
-      <nav className="navbar">
+      <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
         <ul className="barplay__navbar-links">
           <li className="barplay__links">
             <a>Kokoustilat</a>
@@ -67,9 +90,7 @@ const Navbar = () => {
             <div className="barplay__navbar-smallscreen_overlay flex__center slide-bottom">
               <div className="barplay__smallscreen-barplay_joensuu">
                 <li className="barplay__links-smallscreen-joensuu">
-                  <a>
-                    Bar Play Joensuu
-                  </a>
+                  <a>Bar Play Joensuu</a>
                 </li>
 
                 {/* ------The cross/exit Btn------- */}
