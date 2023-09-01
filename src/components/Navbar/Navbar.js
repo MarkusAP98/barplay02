@@ -10,8 +10,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div>
-        </div>
+        <div></div>
         <ul className="barplay__navbar-links">
           <li className="barplay__links">
             <a>Kokoustilat</a>
@@ -46,22 +45,22 @@ const Navbar = () => {
           </ul>
         </div>
         <button className="barplay__navbar-btn">Varaa pöytä</button>
-          
 
         {/* --------START for smallscreen HamburgerMenu---------- */}
 
-
         <div className="navbar__smallscreen">
-
           <div className="navbar__smallscreen-hamburgermenu">
-        <li>Barplay Joensuu</li>
-        <p>Joensuu</p>
-          <GiHamburgerMenu
-          className="hamburger"
-            color="#fff"
-            fontSize={27}
-            onClick={() => setToggleMenu(true)}
-          />
+            <div className="smallscreen-header">
+              <li>Barplay Joensuu</li>
+              <p>Joensuu</p>
+            </div>
+
+            <GiHamburgerMenu
+              className="hamburger"
+              color="#fff"
+              fontSize={27}
+              onClick={() => setToggleMenu(true)}
+            />
           </div>
 
           {/* --------After Clicked what will be Toggled------ */}

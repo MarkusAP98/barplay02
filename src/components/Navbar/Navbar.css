@@ -226,8 +226,7 @@
 
 /* --------HambergurMenu--------- */
 
-.navbar__smallscreen-hamburgermenu li,
-.navbar__smallscreen-hamburgermenu p {
+.smallscreen-header{
   position: absolute;
   left: 45%;
   font-size: 16px;
@@ -237,12 +236,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .hamburger {
   position: absolute;
   right: 2rem;
   font-size: 35px;
+  cursor: pointer;
 }
 
 /* ----mediaquarryes----- */
