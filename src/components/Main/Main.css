@@ -3,14 +3,13 @@
     display: inline-block;
     width: 100%;
     overflow: hidden;
-    margin-top: -200px;
-    margin-bottom: -200px;
+    margin-top: -100px;
 }
 
 .barplay__main-img {
-    width: 100%;
     overflow: hidden;
     margin-bottom: -150px;
+    width: 110%;
 }
 
 .barplay__logo {
@@ -19,4 +18,39 @@
     top: 55%;
     left: 32%;
     width: 35rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .barplay__main-img, .barplay__main {
+        margin: 0;
+
+    }
+
+} 
+
+@media screen and (max-width: 950px) {
+    .barplay__logo {
+        position: absolute;
+        top:40%;
+        left: 27%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .barplay__logo {
+        width: 27rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .barplay__logo {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .barplay__logo {
+        position: absolute;
+        left: 15%;
+    }
 }

@@ -52,7 +52,6 @@ const Navbar = () => {
           <div className="navbar__smallscreen-hamburgermenu">
             <div className="smallscreen-header">
               <li>Barplay Joensuu</li>
-              <p>Joensuu</p>
             </div>
 
             <GiHamburgerMenu
