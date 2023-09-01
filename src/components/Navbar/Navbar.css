@@ -100,7 +100,7 @@
 /* --------small screen overlay ----------*/
 
 .navbar__smallscreen {
-  display: ;
+  display: none;
 }
 
 .barplay__navbar-smallscreen_overlay {
@@ -191,7 +191,7 @@
   margin-left: -40px;
 }
 
-.navbar-icons {
+.navbar-icons-smallscreen {
   border: #282828 solid 1px;
   display: flex;
   justify-content: center;
@@ -201,11 +201,12 @@
   font-size: 16px;
 }
 
-.navbar-icons:hover {
+.navbar-icons-smallscreen:hover {
   cursor: pointer;
+  color: aqua;
 }
 
-.navbar-icons a {
+.navbar-icons-smallscreen a {
   font-size: 30px;
   position: relative;
   top: 5px;
@@ -221,4 +222,37 @@
   margin: 2rem;
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
+}
+
+/* --------HambergurMenu--------- */
+
+.navbar__smallscreen-hamburgermenu li {
+  width: rem;
+  background: #272727;
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger {
+  position: absolute;
+  right: 2rem;
+  font-size: 35px;
+}
+
+/* ----mediaquarryes----- */
+
+@media screen and (max-width: 1150px) {
+  .navbar__smallscreen {
+    display: flex;
+  }
+  .barplay__navbar-links,
+  .navbar_social-media,
+  .barplay__navbar-btn {
+    display: none;
+  }
 }
