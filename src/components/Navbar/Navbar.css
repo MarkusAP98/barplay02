@@ -100,7 +100,7 @@
 /* --------small screen overlay ----------*/
 
 .navbar__smallscreen {
-  display: ;
+  display: none;
 }
 
 .barplay__navbar-smallscreen_overlay {
@@ -116,11 +116,10 @@
 
 .overlay__close-btn {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 0px;
+  right: 0px;
   margin: 0px;
-  width: 3rem;
-  height: 3rem;
+  padding: 0.5rem;
   background-color: aliceblue;
   color: black;
   cursor: pointer;
@@ -157,6 +156,7 @@
   justify-content: center;
   font-weight: 600;
   transition: 0.5 ease;
+  padding: 1rem;
 }
 .barplay__links-smallscreen-joensuu:hover {
   text-decoration: underline;
@@ -191,7 +191,7 @@
   margin-left: -40px;
 }
 
-.navbar-icons {
+.navbar-icons-smallscreen {
   border: #282828 solid 1px;
   display: flex;
   justify-content: center;
@@ -201,11 +201,12 @@
   font-size: 16px;
 }
 
-.navbar-icons:hover {
+.navbar-icons-smallscreen:hover {
   cursor: pointer;
+  color: aqua;
 }
 
-.navbar-icons a {
+.navbar-icons-smallscreen a {
   font-size: 30px;
   position: relative;
   top: 5px;
@@ -221,4 +222,54 @@
   margin: 2rem;
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+/* --------HambergurMenu--------- */
+
+.smallscreen-header {
+  position: absolute;
+  left: 45%;
+  font-size: 16px;
+  font-weight: 700;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hamburger {
+  position: absolute;
+  right: 2rem;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/* ----mediaquarryes----- */
+
+@media screen and (max-width: 1300px) {
+  #barplay-joensuu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .navbar__smallscreen {
+    display: flex;
+  }
+  .barplay__navbar-links,
+  .navbar_social-media,
+  .barplay__navbar-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+      .smallscreen-header li{
+        display: flex;
+        position: relative;
+       right: 30%;
+      }
 }
