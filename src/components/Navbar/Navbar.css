@@ -11,6 +11,10 @@
   transition: 0.5s ease;
 }
 
+.navbar.scrolled {
+  background-color: #272727;
+}
+
 .navbar_social-media ul {
   display: flex;
   font-size: 1.5rem;
