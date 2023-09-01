@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import { AiFillFacebook, AiFillInstagram, AiFillMessage } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -10,7 +10,6 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div></div>
         <ul className="barplay__navbar-links">
           <li className="barplay__links">
             <a>Kokoustilat</a>
