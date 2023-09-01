@@ -48,9 +48,10 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
     .barplay__logo {
         position: absolute;
-        left: 15%;
+        left: 25%;
+        width: 15rem;
     }
 }

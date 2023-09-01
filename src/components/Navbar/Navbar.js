@@ -69,7 +69,7 @@ const Navbar = () => {
               <div className="barplay__smallscreen-barplay_joensuu">
                 <li className="barplay__links-smallscreen-joensuu">
                   <a>
-                    <p>Bar Play Joensuu</p>
+                    Bar Play Joensuu
                   </a>
                 </li>
 
