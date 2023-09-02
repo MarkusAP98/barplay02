@@ -1,6 +1,8 @@
 import React from "react";
 import "./Info.css";
 import { AiOutlineClockCircle } from "react-icons/ai";
+import { CiLocationOn } from "react-icons/ci";
+import { BsTelephoneFill } from "react-icons/bs";
 
 const Info = () => {
   return (
@@ -49,12 +51,22 @@ const Info = () => {
         <div className="barplay__schedule-section-text">
           <h1>Bar play Joensuu</h1>
           <div className="barplay__schedule-clock">
-            <AiOutlineClockCircle className="clock-icon" />
+            <AiOutlineClockCircle className="barplay__schedule-icon" />
             <div className="barplay__schedule-clock-p">
               <p>Tänään: 12:00 - 02:00</p>
               <p>Keittiö: 12:00 - 01:00</p>
             </div>
-            
+          </div>
+          <div className="barplay__schedule-location">
+            <CiLocationOn className="barplay__schedule-icon" />
+            <p>Kauppakatu 23 B, 80100 Joensuu</p>
+            <a href="#">Karta</a>
+          </div>
+          <br></br>
+          <div className="barplay__schedule-phone">
+            <BsTelephoneFill className="barplay__schedule-icon" />
+            <a href="#">010 7623510</a>
+            <a href="#">Soita</a>
           </div>
         </div>
       </div>

@@ -1,65 +1,81 @@
 .barplay__info-section {
-    box-sizing: border-box;
-    margin: 0;
-    display: flex;
-    justify-content: start;
-    margin-left: 13rem;
-    font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  margin-left: 13rem;
+  font-size: 16px;
 }
 
-.barplay__info-section h {
-    font-size: 34px;
+.barplay__info-section h1 {
+  font-size: 24px;
+  justify-content: flex-start;
 }
 
 .barplay__info-section li {
-    color: red;
-    list-style: none;
-    text-decoration: underline;
-    cursor: pointer;
-
+  color: red;
+  list-style: none;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .barplay__info-section li:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .barplay__info-text {
-    background: #111111;
-    color: white;
-    width: 40%;
-    padding: 4rem;
-    position: relative;
-    top: -3rem;
+  background: #111111;
+  color: white;
+  width: 40%;
+  padding: 4rem;
+  position: relative;
+  top: -3rem;
 }
-
 
 /* -----schedule section ----- */
 
 .barplay__schedule-section {
-    background-color: white;
-    color: #111111;
-    height: 20rem;
-    padding: 3rem;
-    margin-top:-4px;
+  background-color: white;
+  color: #111111;
+  height: 15rem;
+  width: 25rem;
+  padding: 3rem;
+  margin-top: -4px;
+  margin-left: -1rem;
+  justify-content: flex-start;
 }
 
 .barplay__schedule-section-text {
-    margin-top: -40px;
+  margin-top: -40px;
+  justify-content: flex-start;
 }
 
 /* ----First schedule----- */
 
 .barplay__schedule-clock {
-    display: flex;
-    justify-content: start;
-    align-items: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
-.clock-icon {
-    font-size: 30px ;
+.barplay__schedule-icon {
+  font-size: 30px;
 }
 
 .barplay__schedule-clock-p {
-    margin-left: 2rem;
-    font-weight: bolder;
+  margin-left: 2rem;
+}
+
+.barplay__schedule-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barplay__schedule-location a {
+  color: #111111;
+}
+
+.barplay__schedule-location p {
+  margin-left: -1.4rem;
 }
