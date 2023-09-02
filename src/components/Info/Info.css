@@ -85,12 +85,15 @@
 /* ----- Phone ------ */
 
 .barplay__schedule-phone {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .barplay__schedule-phone a {
   color: #111111;
-  align-items: center;
 }
 
+#soita {
+    margin-left: 11rem;
+}

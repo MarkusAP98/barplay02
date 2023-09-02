@@ -2,7 +2,7 @@ import React from "react";
 import "./Info.css";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
-import { BsTelephoneFill } from "react-icons/bs";
+import { BsTelephone } from "react-icons/bs";
 
 const Info = () => {
   return (
@@ -64,9 +64,9 @@ const Info = () => {
           </div>
           <br></br>
           <div className="barplay__schedule-phone">
-            <BsTelephoneFill className="barplay__schedule-icon" />
+            <BsTelephone className="barplay__schedule-icon" />
             <a href="#">010 7623510</a>
-            <a href="#">Soita</a>
+            <a href="#" id="soita">Soita</a>
           </div>
         </div>
       </div>
