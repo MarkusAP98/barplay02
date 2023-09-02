@@ -1,0 +1,65 @@
+.barplay__info-section {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    margin-left: 13rem;
+    font-size: 16px;
+}
+
+.barplay__info-section h {
+    font-size: 34px;
+}
+
+.barplay__info-section li {
+    color: red;
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.barplay__info-section li:hover {
+    text-decoration: none;
+}
+
+.barplay__info-text {
+    background: #111111;
+    color: white;
+    width: 40%;
+    padding: 4rem;
+    position: relative;
+    top: -3rem;
+}
+
+
+/* -----schedule section ----- */
+
+.barplay__schedule-section {
+    background-color: white;
+    color: #111111;
+    height: 20rem;
+    padding: 3rem;
+    margin-top:-4px;
+}
+
+.barplay__schedule-section-text {
+    margin-top: -40px;
+}
+
+/* ----First schedule----- */
+
+.barplay__schedule-clock {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.clock-icon {
+    font-size: 30px ;
+}
+
+.barplay__schedule-clock-p {
+    margin-left: 2rem;
+    font-weight: bolder;
+}
