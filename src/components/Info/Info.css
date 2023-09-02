@@ -3,7 +3,7 @@
   margin: 0;
   display: flex;
   justify-content: start;
-  margin-left: 13rem;
+  margin-left: 10%;
   font-size: 16px;
 }
 
@@ -66,6 +66,8 @@
   margin-left: 2rem;
 }
 
+/* ----Location------ */
+
 .barplay__schedule-location {
   display: flex;
   justify-content: space-between;
@@ -79,3 +81,16 @@
 .barplay__schedule-location p {
   margin-left: -1.4rem;
 }
+
+/* ----- Phone ------ */
+
+.barplay__schedule-phone {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barplay__schedule-phone a {
+  color: #111111;
+  align-items: center;
+}
+
