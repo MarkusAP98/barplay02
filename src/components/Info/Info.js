@@ -66,7 +66,16 @@ const Info = () => {
           <div className="barplay__schedule-phone">
             <BsTelephone className="barplay__schedule-icon" />
             <a href="#">010 7623510</a>
-            <a href="#" id="soita">Soita</a>
+            <a href="#" id="soita">
+              Soita
+            </a>
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <div className="barplay__ruoka-listat">
+            <a href="#">Ruokalista</a>
+            <a href="#">Kaikki yhteistiedot</a>
           </div>
         </div>
       </div>
