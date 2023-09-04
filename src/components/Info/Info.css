@@ -95,22 +95,28 @@
 }
 
 #soita {
-    margin-left: 11rem;
+  margin-left: 11rem;
 }
 
 /* -------Ruoka listat----- */
 
 .barplay__ruoka-listat {
-    justify-content: start;
-    width: 40rem;
-    margin-left: -47px;
-
+  justify-content: start;
+  width: 40rem;
+  margin-left: -47px;
 }
 
 .barplay__ruoka-listat a {
-    position: relative;
-    left: 0.95rem;
-    border: white 2px solid;
-    background: #F5F0EB;
-    padding: 1rem 67.8px;
+  position: relative;
+  left: 0.95rem;
+  border: white 2px solid;
+  background: #f5f0eb;
+  padding: 1rem 67.8px;
+  color: #111111;
+}
+
+/* ----------media quarry---------- */
+
+@media screen and (max-width: 1115px) {
+      
 }
