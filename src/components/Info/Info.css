@@ -1,14 +1,30 @@
 .barplay__info-section {
   box-sizing: border-box;
-  margin: 0;
+  position: relative;
+  top: -5px;
+  width: 100%;
   display: flex;
   justify-content: start;
-  margin-left: 10%;
   font-size: 16px;
 }
 
+.barplay__info-and-schedule {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.barplay__info-text {
+  background: #111111;
+  color: white;
+  width: 40%;
+  padding: 4rem;
+  position: relative;
+  top: -3rem;
+}
+
 .barplay__info-section h1 {
-  font-size: 24px;
+  font-size: 30px;
   justify-content: flex-start;
 }
 
@@ -23,14 +39,6 @@
   text-decoration: none;
 }
 
-.barplay__info-text {
-  background: #111111;
-  color: white;
-  width: 40%;
-  padding: 4rem;
-  position: relative;
-  top: -3rem;
-}
 
 /* -----schedule section ----- */
 
@@ -40,9 +48,7 @@
   height: 15rem;
   width: 25rem;
   padding: 3rem;
-  margin-top: -4px;
-  margin-left: -1rem;
-  justify-content: flex-start;
+  position: relative;
 }
 
 .barplay__schedule-section-text {
@@ -50,7 +56,7 @@
   justify-content: flex-start;
 }
 
-/* ----First schedule----- */
+/* ------- Clock ------- */
 
 .barplay__schedule-clock {
   display: flex;
@@ -101,22 +107,28 @@
 /* -------Ruoka listat----- */
 
 .barplay__ruoka-listat {
-  justify-content: start;
-  width: 40rem;
-  margin-left: -47px;
+  position: relative;
+  
+  width: 100%;
+  background-color: antiquewhite;
 }
 
 .barplay__ruoka-listat a {
-  position: relative;
-  left: 0.95rem;
-  border: white 2px solid;
-  background: #f5f0eb;
-  padding: 1rem 67.8px;
-  color: #111111;
 }
 
 /* ----------media quarry---------- */
 
 @media screen and (max-width: 1115px) {
-      
+      .barplay__info-section {         
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      /* upper code makes the column reverse */
+
+      .barplay__schedule-section {
+        justify-content: flex-start;
+      }
+      .barplay__ruoka-listat  {
+        padding: 1rem 5rem;
+      }
 }
