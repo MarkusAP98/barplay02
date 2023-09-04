@@ -42,19 +42,15 @@
 
 /* -----schedule section ----- */
 
-.barplay__schedule-section {
+
+
+.barplay__schedule-text {
   background-color: white;
   color: #111111;
-  height: 15rem;
   width: 25rem;
-  padding: 3rem;
-  position: relative;
+  padding: 5px 2em;
 }
 
-.barplay__schedule-section-text {
-  margin-top: -40px;
-  justify-content: flex-start;
-}
 
 /* ------- Clock ------- */
 
@@ -107,13 +103,22 @@
 /* -------Ruoka listat----- */
 
 .barplay__ruoka-listat {
+  display: flex;
   position: relative;
-  
   width: 100%;
-  background-color: antiquewhite;
+  text-align: center;
+  height: 3rem;
+  background-color: aqua;
 }
 
 .barplay__ruoka-listat a {
+  display: inline-block;
+  width: 100%;
+  color: black;
+  border: black solid 2px;
+  background-color: antiquewhite;
+  line-height: 3rem;
+
 }
 
 /* ----------media quarry---------- */
@@ -129,6 +134,5 @@
         justify-content: flex-start;
       }
       .barplay__ruoka-listat  {
-        padding: 1rem 5rem;
       }
 }

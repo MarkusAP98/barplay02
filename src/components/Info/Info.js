@@ -49,7 +49,7 @@ const Info = () => {
         {/* -------- schedule info section ------- */}
 
         <div className="barplay__schedule-section">
-          <div className="barplay__schedule-section-text">
+          <div className="barplay__schedule-text">
             <h1>Bar play Joensuu</h1>
             {/* ---------clock-------- */}
             <div className="barplay__schedule-clock">
