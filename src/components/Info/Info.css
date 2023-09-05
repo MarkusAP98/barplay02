@@ -140,10 +140,8 @@
       }
       /* upper code makes the column reverse */
 
-      .barplay__schedule-section {
-
-      }
-      .barplay__ruoka-listat  {
-
+      .barplay__schedule-text {
+        width: 100%;
+        box-sizing: border-box;
       }
 }
