@@ -53,7 +53,7 @@ const Info = () => {
             <h1>Bar play Joensuu</h1>
             {/* ---------clock-------- */}
             <div className="barplay__schedule-clock">
-              <AiOutlineClockCircle className="barplay__schedule-icon" />
+              <AiOutlineClockCircle className="barplay__schedule-icon-clock" />
               <div className="barplay__schedule-clock-p">
                 <p>Tänään: 12:00 - 02:00</p>
                 <p>Keittiö: 12:00 - 01:00</p>
@@ -61,17 +61,17 @@ const Info = () => {
             </div>
             {/* ----------location-------- */}
             <div className="barplay__schedule-location">
-              <CiLocationOn className="barplay__schedule-icon" />
+              <CiLocationOn className="barplay__schedule-icon-location" />
               <p>Kauppakatu 23 B, 80100 Joensuu</p>
               <a href="#">Karta</a>
             </div>
             <br></br>
             {/* -------phone-------- */}
             <div className="barplay__schedule-phone">
-              <BsTelephone className="barplay__schedule-icon" />
+              <BsTelephone className="barplay__schedule-icon-phone" />
               <a href="#">010 7623510</a>
               <a href="#" id="soita">
-                1 Soita
+                Soita
               </a>
             </div>
             <br></br>

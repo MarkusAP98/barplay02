@@ -1,7 +1,7 @@
 .barplay__info-section {
   box-sizing: border-box;
   position: relative;
-  top: -5px;
+  top: -7px;
   width: 100%;
   display: flex;
   justify-content: start;
@@ -60,7 +60,7 @@
   align-items: center;
 }
 
-.barplay__schedule-icon {
+.barplay__schedule-icon-clock {
   font-size: 30px;
 }
 
@@ -76,12 +76,18 @@
   align-items: center;
 }
 
+.barplay__schedule-icon-location {
+  font-size: 37px;
+  margin-left: -5px;
+}
+
 .barplay__schedule-location a {
   color: #111111;
+  text-decoration: none;
 }
 
 .barplay__schedule-location p {
-  margin-left: -1.4rem;
+  margin-left: -1.6rem;
 }
 
 /* ----- Phone ------ */
@@ -94,10 +100,16 @@
 
 .barplay__schedule-phone a {
   color: #111111;
+  text-decoration: none;
+}
+
+.barplay__schedule-icon-phone {
+  font-size: 27px;
+  margin-left: 3px;
 }
 
 #soita {
-  margin-left: 11rem;
+  margin-left: 10rem;
 }
 
 /* -------Ruoka listat----- */
@@ -115,24 +127,24 @@
   display: inline-block;
   width: 100%;
   color: black;
-  border: black solid 2px;
+  border: white solid 2px;
   background-color: antiquewhite;
   line-height: 3rem;
-
+  text-decoration: none;
 }
 
 /* ----------media quarry---------- */
 
 @media screen and (max-width: 1115px) {
-      .barplay__info-section {         
-        display: flex;
+      .barplay__info-and-schedule {         
         flex-direction: column-reverse;
       }
       /* upper code makes the column reverse */
 
       .barplay__schedule-section {
-        justify-content: flex-start;
+
       }
       .barplay__ruoka-listat  {
+
       }
 }
