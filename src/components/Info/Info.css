@@ -153,7 +153,8 @@
         box-sizing: border-box;
       }
 
-      .barplay__schedule-location p {
-
+      .barplay__schedule-location-text a {
+        position: relative;
+        left: 120%;
       }
 }
