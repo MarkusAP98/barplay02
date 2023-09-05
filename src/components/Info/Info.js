@@ -62,10 +62,8 @@ const Info = () => {
             {/* ----------location-------- */}
             <div className="barplay__schedule-location">
               <CiLocationOn className="barplay__schedule-icon-location" />
-              <div className="barplay__schedule-location-text">
-                <p>Kauppakatu 23 B, 80100 Joensuu</p>
-                <a href="#">Karta</a>
-              </div>
+              <p>Kauppakatu 23 B, 80100 Joensuu</p>
+              <a href="#">Karta</a>
             </div>
             <br></br>
             {/* -------phone-------- */}
