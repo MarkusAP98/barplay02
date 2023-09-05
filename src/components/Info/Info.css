@@ -47,7 +47,7 @@
 .barplay__schedule-text {
   background-color: white;
   color: #111111;
-  width: 25rem;
+  width: 100%;
   padding: 5px 2em;
 }
 
@@ -141,7 +141,9 @@
       }
       /* upper code makes the column reverse */
 
-      .barplay__schedule-section {
+
+      .barplay__schedule-text {
+        width: 100%;
 
       }
       .barplay__ruoka-listat  {
