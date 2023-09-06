@@ -107,6 +107,10 @@
   align-items: center;
 }
 
+.phone__icon-text a {
+ padding-left: 2rem;
+}
+
 .barplay__schedule-phone a {
   color: #111111;
   text-decoration: none;
