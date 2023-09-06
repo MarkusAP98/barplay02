@@ -2,8 +2,57 @@
     color: white;
     box-sizing: border-box;
     margin: 0px;
+    width: 100%;
 }
 
 .barplay__add h1 {
     text-align: center;
+}
+
+.barplay__add h2 {
+    color: red;
+}
+
+.add__section {
+    display: flex;
+}
+
+.add__section-1 {
+    margin: 2rem 4rem;
+}
+
+.add__section-1 img {
+    width: 75%;
+}
+
+.add__dining-text {
+    background-color: #282828;
+    padding: 1rem;
+    width: 25rem;
+    height: 13rem;
+    position: relative;
+    left: 5%;
+    margin-top: -3rem;
+}
+
+
+.add__dining-text a {
+    color: red;
+}
+
+.add__dining-text:hover {
+    background-color: black;
+}
+
+
+/* ----- section 2 ----- */
+
+.add__bartender {
+    display: flex;
+    
+}
+
+.bartender {
+    width: 15rem;
+    height: 8rem;
 }
