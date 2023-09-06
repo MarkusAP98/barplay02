@@ -72,16 +72,8 @@
 
 .barplay__schedule-location {
   display: flex;
-}
-
-.barplay__schedule-location-text {
-  display: flex;
-  align-items: center; 
   justify-content: space-between;
-}
-
-.barplay__schedule-location p {
-  margin-left: 2rem;
+  align-items: center;
 }
 
 .barplay__schedule-icon-location {
@@ -92,26 +84,23 @@
 .barplay__schedule-location a {
   color: #111111;
   text-decoration: none;
-  margin-left: 3rem;
+}
+
+.barplay__schedule-location p {
+  margin-left: -1.6rem;
 }
 
 /* ----- Phone ------ */
 
 .barplay__schedule-phone {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  
-}
-
-#soita {
-  margin-left: 12.5rem;
 }
 
 .barplay__schedule-phone a {
   color: #111111;
   text-decoration: none;
-  margin-left: 2rem;
-
 }
 
 .barplay__schedule-icon-phone {
@@ -119,6 +108,9 @@
   margin-left: 3px;
 }
 
+#soita {
+  margin-left: 10rem;
+}
 
 /* -------Ruoka listat----- */
 
@@ -151,9 +143,5 @@
       .barplay__schedule-text {
         width: 100%;
         box-sizing: border-box;
-      }
-
-      .barplay__schedule-location p {
-
       }
 }
