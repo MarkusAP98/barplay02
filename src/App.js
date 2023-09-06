@@ -7,8 +7,8 @@ function App() {
         <Navbar />
         <Main />
         <Info />
-        <Footer />
         <Add />
+        <Footer />
     </div>
   );
 }
