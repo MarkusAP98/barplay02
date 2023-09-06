@@ -5,6 +5,7 @@
   z-index: 2;
   color: white;
   height: 3rem;
+  padding: 10px;
   font-weight: 600;
   background-color: transparent;
   transition: 0.5s ease;
@@ -12,7 +13,6 @@
 
 .navbar.scrolled {
   background-color: #272727;
-  height: 4rem;
 }
 
 .navbar_social-media ul {
@@ -96,8 +96,7 @@
   font-size: 18px;
   font-weight: 700;
   margin-right: 50px;
-  margin-top: 5px;
-  height: 3rem;
+  padding: 5px 20px 5px 20px;
   border-radius: 5px;
 }
 
@@ -112,6 +111,7 @@
 }
 
 .barplay__navbar-smallscreen_overlay {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -261,10 +261,6 @@
     display: none;
   }
   .navbar {
-    position: relative;
-    top: 0.5rem;
-  }
-  .navbar.scrolled {
     background-color: transparent;
   }
 }
