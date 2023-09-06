@@ -70,8 +70,10 @@ const Info = () => {
             <br></br>
             {/* -------phone-------- */}
             <div className="barplay__schedule-phone">
+              <div className="phone__icon-text">
               <BsTelephone className="barplay__schedule-icon-phone" />
               <a href="#">010 7623510</a>
+              </div>
               <a href="#" id="soita">
                 Soita
               </a>
