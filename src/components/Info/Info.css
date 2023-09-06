@@ -72,9 +72,18 @@
 
 .barplay__schedule-location {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
+
+.schedule__location-icon-text {
+  display: flex;
+
+}
+
+.schedule__location-icon-text p{
+  padding-left: 3.5rem;
+} 
 
 .barplay__schedule-icon-location {
   font-size: 37px;
