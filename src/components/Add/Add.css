@@ -68,7 +68,7 @@
 
 .bartender__text {
   margin-left: 1rem;
-  width: 50%;
+  width: 80%;
 }
 
 /* --------markus----------- */
@@ -91,12 +91,11 @@
 @media screen and (max-width: 1250px) {
   .add__section {
     flex-direction: column;
-
-}
+  }
 
   .add__info img {
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
   }
 
   .add__info {
@@ -104,12 +103,14 @@
     justify-content: center;
     align-items: center;
     border-color: transparent;
-}
-
+  }
 }
 @media screen and (max-width: 915px) {
-    
-    .add__dining-text {
-        
-    }
+  .add__dining-text {
+    left: 0%;
+    margin: 10px;
+  }
+  .add__section-1 {
+    margin: 0px;
+  }
 }
