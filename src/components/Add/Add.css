@@ -39,6 +39,11 @@
   margin-top: -3rem;
 }
 
+.add__dining-text:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
 .add__dining-text a {
   color: red;
 }
