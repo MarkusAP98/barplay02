@@ -24,7 +24,7 @@ const Add = () => {
           </div>
         </div>
         <div className="add__section-2">
-          <div className="add__bartender">
+          <div className="add__info">
             <img src={Bartender} alt="bartender" className="bartender"></img>
             <div className="bartender__text">
               <h2>Asiakasomistajan omat viinit ja samppanja</h2>
@@ -36,7 +36,7 @@ const Add = () => {
               <a>Lue lisää</a>
             </div>
           </div>
-          <div className="add__bartender">
+          <div className="add__info">
             <img src={Markus} alt="bartender" className="markus"></img>
             <div className="bartender__text">
               <h2>Barplayn syyskuun S-mobiilitarjous - 0,5l Sandels 5,3%</h2>
@@ -47,12 +47,13 @@ const Add = () => {
               <a>Lue lisää</a>
             </div>
           </div>
-          <div className="add__bartender">
-            <img src={Hamburger} alt="bartender" className="markus" style={{height: '11rem'}}></img>
+          <div className="add__info">
+            <img src={Hamburger} alt="bartender" className="hamburger-img"></img>
             <div className="bartender__text">
               <h2>Barplayn uudet annokset ovat saapuneet!! </h2>
               <p>
-                Vihdoin uusia annoksia! Ja uusia dippejä myös. Nämä uutuudet ovat todellakin testaamisen arvoinen! Tervetuloa
+                Vihdoin uusia annoksia! Ja uusia dippejä myös. Nämä uutuudet
+                ovat todellakin testaamisen arvoinen! Tervetuloa
               </p>
               <a>Lue lisää</a>
             </div>

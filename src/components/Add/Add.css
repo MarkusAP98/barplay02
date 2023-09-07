@@ -39,22 +39,29 @@
   margin-top: -3rem;
 }
 
+.add__dining-text:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
 .add__dining-text a {
   color: red;
 }
 
-.add__dining-text:hover {
+.add__info:hover {
   background-color: black;
+  cursor: pointer;
 }
+
 
 /* ----- section 2 ----- */
 
 .add__section-2 {
-  width: 60rem;
+  width: 100%;
   margin-right: 4rem;
 }
 
-.add__bartender {
+.add__info {
   display: flex;
   border-bottom: solid white 1px;
   border-top: solid white 1px;
@@ -68,14 +75,59 @@
 
 .bartender__text {
   margin-left: 1rem;
+  width: 80%;
 }
 
 /* --------markus----------- */
 
 .markus {
-  height: 9.5rem;
   width: 15rem;
+  height: 9.5rem;
   margin: 1rem 0rem;
 }
 /* ------hamburger------- */
 
+.hamburger-img {
+  margin: 1rem 0rem;
+  width: 17rem;
+  height: 11rem;
+}
+
+/* ------Responsivness ----- */
+
+@media screen and (max-width: 1250px) {
+  .add__section {
+    flex-direction: column;
+  }
+
+  .add__info img {
+    width: 90%;
+    height: 90%;
+  }
+
+  .add__info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: transparent;
+  }
+}
+@media screen and (max-width: 915px) {
+  .add__dining-text {
+    width: 50%;
+    left: 20%;
+    margin: 50px 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .add__section-1 {
+    margin: 0px;
+  }
+
+  .add__section-1 img {
+    width: 100%;
+  }
+  .add__dining-text:hover {
+  background-color: #282828;
+}
+}
