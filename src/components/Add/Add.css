@@ -108,7 +108,7 @@
 @media screen and (max-width: 915px) {
   .add__dining-text {
     width: 50%;
-    left: 15%;
+    left: 20%;
     margin: 50px 20px;
     margin-top: 30px;
     text-align: center;
@@ -117,5 +117,7 @@
     margin: 0px;
   }
 
-  
+  .add__section-1 img {
+    width: 100%;
+  }
 }
