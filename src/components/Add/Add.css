@@ -43,9 +43,11 @@
   color: red;
 }
 
-.add__dining-text:hover {
+.add__info:hover {
   background-color: black;
+  cursor: pointer;
 }
+
 
 /* ----- section 2 ----- */
 
@@ -120,4 +122,7 @@
   .add__section-1 img {
     width: 100%;
   }
+  .add__dining-text:hover {
+  background-color: #282828;
+}
 }
