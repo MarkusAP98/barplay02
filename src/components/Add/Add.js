@@ -3,7 +3,7 @@ import "./Add.css";
 import Dining from "../../assets/add_section/dining.webp";
 import Bartender from '../../assets/add_section/bartender.webp'
 import Markus from "../../assets/add_section/markus.webp";
-import Hamburger from '../../assets/add_section/'
+import Hamburger from '../../assets/add_section/hamburger.webp'
 
 
 const Add = () => {
@@ -48,12 +48,11 @@ const Add = () => {
             </div>
           </div>
           <div className="add__bartender">
-            <img src={Markus} alt="bartender" className="markus"></img>
+            <img src={Hamburger} alt="bartender" className="markus" style={{height: '11rem'}}></img>
             <div className="bartender__text">
-              <h2>Barplayn syyskuun S-mobiilitarjous - 0,5l Sandels 5,3%</h2>
+              <h2>Barplayn uudet annokset ovat saapuneet!! </h2>
               <p>
-                Bar Play syyskuun S-mobiilietuna nautitaan jääkylmä 0.5L tuoppi
-                Sandels 5,3% olutta hintaan 6,60€(norm.7,70€)
+                Vihdoin uusia annoksia! Ja uusia dippejä myös. Nämä uutuudet ovat todellakin testaamisen arvoinen! Tervetuloa
               </p>
               <a>Lue lisää</a>
             </div>
