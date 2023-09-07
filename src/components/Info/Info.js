@@ -11,6 +11,7 @@ const Info = () => {
       <div className="barplay__info-and-schedule">
         <div className="barplay__info-text">
           <h1>MUKANA PELISSÄ!</h1>
+          <div className="info__text">
           <p>
             Bar Play on kaupungin menevin sporttibaari! Meillä voit katsoa
             urheilua kolmelta jättiscreeniltä sekä kymmenesta muusta
@@ -44,6 +45,8 @@ const Info = () => {
           </p>
           <br></br>
           <p>Lämpimästi tervetuloa!</p>
+
+          </div>
         </div>
 
         {/* -------- schedule info section ------- */}

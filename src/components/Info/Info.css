@@ -18,9 +18,13 @@
   background: #111111;
   color: white;
   width: 40%;
-  padding: 4rem;
+  padding: 4rem 0rem;
   position: relative;
   top: -3rem;
+}
+
+.info__text {
+  margin: 3rem;
 }
 
 .barplay__info-section h1 {
