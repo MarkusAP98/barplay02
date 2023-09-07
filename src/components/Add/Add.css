@@ -50,7 +50,7 @@
 /* ----- section 2 ----- */
 
 .add__section-2 {
-  width: 60rem;
+  width: 100%;
   margin-right: 4rem;
 }
 
@@ -91,11 +91,8 @@
 @media screen and (max-width: 1250px) {
   .add__section {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
+
+}
 
   .add__info img {
     width: 50%;
@@ -104,10 +101,8 @@
 
   .add__info {
     flex-direction: column;
-    border: transparent;
-    justify-content: center;
-    align-items: center;
-  }
+    width: 50%;
+}
 
 }
 @media screen and (max-width: 915px) {
