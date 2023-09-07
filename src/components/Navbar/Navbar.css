@@ -4,7 +4,7 @@
   position: fixed;
   z-index: 2;
   color: white;
-  height: 3rem;
+  height: 2.5rem;
   padding: 10px;
   font-weight: 600;
   background-color: transparent;
@@ -236,9 +236,8 @@
 
 .smallscreen-header {
   position: absolute;
-  top: 25%;
   left: 45%;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   list-style: none;
   display: flex;
@@ -251,7 +250,7 @@
 .hamburger {
   position: absolute;
   right: 2rem;
-  font-size: 25px;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -274,9 +273,6 @@
   .navbar_social-media,
   .barplay__navbar-btn {
     display: none;
-  }
-  .navbar {
-    height: 2rem;
   }
 }
 
