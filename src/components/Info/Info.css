@@ -165,4 +165,7 @@
       .barplay__info-text {
         width: 100%;
       }
+      .barplay__info-section h1 {
+        margin-left: 2.5rem;
+      }
 }
