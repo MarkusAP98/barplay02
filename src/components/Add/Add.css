@@ -68,46 +68,51 @@
 
 .bartender__text {
   margin-left: 1rem;
+  width: 50%;
 }
 
 /* --------markus----------- */
 
 .markus {
-    width: 15rem;
+  width: 15rem;
   height: 9.5rem;
   margin: 1rem 0rem;
 }
 /* ------hamburger------- */
 
 .hamburger-img {
-    margin: 1rem 0rem;
-    width: 17rem;
-    height: 11rem;
+  margin: 1rem 0rem;
+  width: 17rem;
+  height: 11rem;
 }
 
 /* ------Responsivness ----- */
 
 @media screen and (max-width: 1250px) {
-    .add__section {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-    }
+  .add__section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
 
-    .add__info img {
-        width: 50%;
-        height: 50%;
-    }
+  .add__info img {
+    width: 50%;
+    height: 50%;
+  }
 
-    .add__info {
-        flex-direction: column;
-        border: transparent;
-        justify-content: center;
-        align-items: center;
-    }
+  .add__info {
+    flex-direction: column;
+    border: transparent;
+    justify-content: center;
+    align-items: center;
+  }
 
+}
+@media screen and (max-width: 915px) {
     
-
+    .add__info {
+        
+    }
 }
