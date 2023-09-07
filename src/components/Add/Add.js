@@ -2,6 +2,9 @@ import React from "react";
 import "./Add.css";
 import Dining from "../../assets/add_section/dining.webp";
 import Bartender from '../../assets/add_section/bartender.webp'
+import Markus from "../../assets/add_section/markus.webp";
+import Hamburger from '../../assets/add_section/'
+
 
 const Add = () => {
   return (
@@ -25,8 +28,34 @@ const Add = () => {
             <img src={Bartender} alt="bartender" className="bartender"></img>
             <div className="bartender__text">
               <h2>Asiakasomistajan omat viinit ja samppanja</h2>
-            <p>Hei viiniystävät! Vouden viinitilakierros on tehty-löysimme nautittavaksi erinomaiset asiakasomistajaviinit. Tervetuloa maistelemaan ja nauttimaan!</p>
-            <a>Lue lisää</a>
+              <p>
+                Hei viiniystävät! Vouden viinitilakierros on tehty-löysimme
+                nautittavaksi erinomaiset asiakasomistajaviinit. Tervetuloa
+                maistelemaan ja nauttimaan!
+              </p>
+              <a>Lue lisää</a>
+            </div>
+          </div>
+          <div className="add__bartender">
+            <img src={Markus} alt="bartender" className="markus"></img>
+            <div className="bartender__text">
+              <h2>Barplayn syyskuun S-mobiilitarjous - 0,5l Sandels 5,3%</h2>
+              <p>
+                Bar Play syyskuun S-mobiilietuna nautitaan jääkylmä 0.5L tuoppi
+                Sandels 5,3% olutta hintaan 6,60€(norm.7,70€)
+              </p>
+              <a>Lue lisää</a>
+            </div>
+          </div>
+          <div className="add__bartender">
+            <img src={Markus} alt="bartender" className="markus"></img>
+            <div className="bartender__text">
+              <h2>Barplayn syyskuun S-mobiilitarjous - 0,5l Sandels 5,3%</h2>
+              <p>
+                Bar Play syyskuun S-mobiilietuna nautitaan jääkylmä 0.5L tuoppi
+                Sandels 5,3% olutta hintaan 6,60€(norm.7,70€)
+              </p>
+              <a>Lue lisää</a>
             </div>
           </div>
         </div>
