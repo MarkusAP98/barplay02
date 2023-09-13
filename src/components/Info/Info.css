@@ -86,7 +86,7 @@
 }
 
 .schedule__location-icon-text p{
-  padding-left: 3.5rem;
+  padding-left: 2rem;
 } 
 
 .barplay__schedule-icon-location {
@@ -99,9 +99,6 @@
   text-decoration: none;
 }
 
-.barplay__schedule-location p {
-  margin-left: -1.6rem;
-}
 
 /* ----- Phone ------ */
 
@@ -125,9 +122,6 @@
   margin-left: 3px;
 }
 
-#soita {
-  margin-left: 10rem;
-}
 
 /* -------Ruoka listat----- */
 
@@ -167,5 +161,18 @@
       }
       .barplay__info-section h1 {
         margin-left: 2.5rem;
+      }
+
+      .barplay__schedule-clock-p {
+        margin-left: 20px;
+      }
+
+      .schedule__location-icon-text p {
+        margin-left: -10px;
+        padding-right:10px ;
+      }
+
+      .phone__icon-text a {
+        margin-left: -10px;
       }
 }
