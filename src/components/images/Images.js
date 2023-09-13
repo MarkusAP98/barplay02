@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import barplay from "../../assets/images_slider/barplay.webp";
+import biljard from "../../assets/images_slider/biljard.jpg";
+import food from "../../assets/images_slider/food.webp";
+import markusBat from "../../assets/images_slider/markus bat.webp";
 
 const Images = () => {
-  return (
-    <div>Images</div>
-  )
-}
+  // Sample image data
 
-export default Images
+  return (
+    <div className="barplay__img-slider">
+
+    </div>
+  );
+};
+
+export default Images;
