@@ -8,9 +8,14 @@ const Images = () => {
   // Sample image data
 
   return (
-    <div className="barplay__img-slider">
+
+     <div>
+      <h1>Kuvia Ravintolasta!</h1>
+      <div className="barplay__img-slider">
 
     </div>
+     </div>
+    
   );
 };
 
