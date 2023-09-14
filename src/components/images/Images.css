@@ -1,0 +1,25 @@
+.barplay__img-slider {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barplay__img-slider h1 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+
+.img-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-slider .image {
+    width: 30rem;
+    height: 18rem;
+}
