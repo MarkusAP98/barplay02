@@ -44,6 +44,7 @@ const Images = () => {
         breakpoint: 950,
         settings: {
           slidesToShow: 1,
+          dots: true,
         },
       },
     ],
