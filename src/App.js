@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar, Main, Info, Footer, Add, Images } from './components';
+import { Navbar, Main, Info, Footer, Add } from './components';
 
 function App() {
   return (
@@ -8,7 +8,6 @@ function App() {
         <Main />
         <Info />
         <Add />
-        <Images />
         <Footer />
     </div>
   );
