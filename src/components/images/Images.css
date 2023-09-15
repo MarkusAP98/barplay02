@@ -1,0 +1,26 @@
+.barplay__img-slider {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slick-slider h2 {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+
+.slick-slider {
+    width: 95%;
+    position: relative;
+    left: 1%;
+}
+
+.card img {
+    width: 25rem;
+    height: 18rem;
+}
+
