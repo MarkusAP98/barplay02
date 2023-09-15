@@ -1,5 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./Images.css";
+
 import barplay from "../../assets/images_slider/barplay.webp";
 import food from "../../assets/images_slider/food.webp";
 import markusBat from "../../assets/images_slider/markus bat.webp";
@@ -23,42 +27,25 @@ const Images = () => {
     people_2,
   ];
 
-  const itemsToShow = 3;
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  const prevImage = () => {
-    setCurrentImageIndex(
-      (currentImageIndex - 1 + images.length) % images.length
-    );
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
   };
 
-  const nextImage = () => {
-    setCurrentImageIndex((currentImageIndex + 1) % images.length);
-  };
-
-  const getImagesToDisplay = () => {
-    const displayedImages = [];
-    for (let i = 0; i < itemsToShow; i++) {
-      const index = (currentImageIndex + i) % images.length;
-      displayedImages.push(images[index]);
-    }
-    return displayedImages;
-  };
 
   return (
-    <div className="barplay__img-slider">
-      <h1>Kuvia Ravintolasta!</h1>
-      <div className="img-slider">
-        <button onClick={prevImage} className="slider-button">
-          Previous
-        </button>
-        {getImagesToDisplay().map((image, index) => (
-          <img key={index} className="image" src={image} alt={`Image ${index}`} />
+    <div className="slick-slider">
+      <h2>Multiple items</h2>
+      <Slider {...settings}>
+        {images.map((image, index) => (
+          <div key={index} className="card">
+            <img src={image} alt={`Image ${index + 1}`} />
+          </div>
         ))}
-        <button onClick={nextImage} className="slider-button">
-          Next
-        </button>
-      </div>
+      </Slider>
     </div>
   );
 };

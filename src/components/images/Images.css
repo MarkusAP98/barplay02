@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.barplay__img-slider h1 {
+.slick-slider h2 {
     color: white;
     justify-content: center;
     align-items: center;
@@ -13,13 +13,14 @@
 
 }
 
-.img-slider {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.slick-slider {
+    width: 95%;
+    position: relative;
+    left: 1%;
 }
 
-.img-slider .image {
-    width: 30rem;
+.card img {
+    width: 25rem;
     height: 18rem;
 }
+
