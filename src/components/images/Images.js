@@ -32,13 +32,13 @@ const Images = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
   };
 
 
   return (
     <div className="slick-slider">
-      <h2>Multiple items</h2>
+      <h2>Kuvia Ravintolasta</h2>
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index} className="card">
