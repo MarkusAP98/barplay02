@@ -14,7 +14,7 @@
 }
 
 .slick-slider {
-    width: 95%;
+    width: 97%;
     position: relative;
     left: 1%;
 }
@@ -22,5 +22,6 @@
 .card img {
     width: 25rem;
     height: 18rem;
+    margin-left: 3rem;
 }
 
