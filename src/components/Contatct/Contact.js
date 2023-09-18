@@ -15,14 +15,18 @@ const Contact = () => {
           <li>
             <a classname="info-icon">
               <AiFillFacebook className="info_icon-fb, info-icon" />
-              Facebook
             </a>
+            <p>
+              <a>Facebook</a>
+            </p>
           </li>
           <li>
             <a classname="info-icon">
               <AiFillInstagram className="info_icon-ig, info-icon" />
             </a>
-            Instagram
+            <p>
+              <a>Instagram</a>
+            </p>
           </li>
         </div>
         {/*--------karta--------- */}
@@ -49,11 +53,42 @@ const Contact = () => {
             Arkisin klo 18 jälkeen K18, viikonloppuisin ja tapahtumissa koko
             päivän K18
           </p>
-          <li>
-            <a classname="info-icon">
-              <AiOutlineClockCircle className="info-icon" />
-            </a>
-          </li>
+          <div className="info-aikataulu-koko">
+            <li>
+              <a classname="info-icon">
+                <AiOutlineClockCircle className="info-icon" />
+              </a>
+            </li>
+            <div>
+              <div className="info-schedule">
+                <div className="info-weekday">
+                  <p>ma - to</p>
+                </div>
+                <div className="info-time">
+                  <p>15:00 - 00:30</p>
+                  <p>Keittiö: 15:00 - 23:30</p>
+                </div>
+              </div>
+              <div className="info-schedule">
+                <div className="info-weekday">
+                  <p>pe - la</p>
+                </div>
+                <div className="info-time">
+                  <p>15:00 - 02:00</p>
+                  <p>Keittiö: 15:00 - 23:30</p>
+                </div>
+              </div>
+              <div className="info-schedule">
+                <div className="info-weekday">
+                  <p>Su</p>
+                </div>
+                <div className="info-time-su">
+                  <p>15:00 - 02:00</p>
+                  <p>Keittiö: 15:00 - 23:30</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

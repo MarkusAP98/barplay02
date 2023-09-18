@@ -23,7 +23,10 @@
  .info-icon
  {
     font-size: 24px;
+    margin-top: 10px;
+    margin-right: 1rem;
  }
+
 
  /* -------palautetta------- */
 
@@ -37,6 +40,18 @@
     border-radius: 10px;
     margin-bottom: 1rem;
 }
+ .info-btn:hover {
+    cursor: pointer;;
+ }
+
+.info-palautetta li {
+    display: flex;
+}
+
+.info-palautetta li:hover {
+    cursor: pointer;
+    color: aqua;
+}
 
  /* ----karta------ */
  
@@ -46,6 +61,30 @@
  }
 
   .info-karta p {
-    margin-left: 2rem;
-    margin-top: -0.2rem;
+    margin-left: 1rem;
   }
+
+  /* --------soita-------- */
+
+  /* --------schedule------ */
+
+  .info-aikataulu {
+    width: 22rem;
+  }
+
+  .info-aikataulu-koko {
+    display: flex;
+  }
+
+  .info-schedule {
+    display: flex;
+}
+
+.info-time {
+    margin-left: 2rem;
+}
+
+.info-time-su {
+    margin-left: 3.5rem;
+}
+
