@@ -1,6 +1,8 @@
 import React from "react";
 import "./Contact.css";
 import { AiFillFacebook, AiFillInstagram, AiFillMessage } from "react-icons/ai";
+import { CiLocationOn } from "react-icons/ci";
+import { BsTelephone } from "react-icons/bs";
 const Contact = () => {
   return (
     <div className="barplay__yhteistiedot">
@@ -12,8 +14,8 @@ const Contact = () => {
           <li>
             <a>
               <AiFillFacebook className="info_icon-fb" />
-            </a>
             Facebook
+            </a>
           </li>
           <li>
             <a>
@@ -23,9 +25,23 @@ const Contact = () => {
           </li>
         </div>
         {/*--------karta--------- */}
-        <div className="info-karta"></div>
+        <div className="info-karta">
+          <li>
+            <a>
+              <CiLocationOn />
+            Kauppakatu 23 B Joensuu
+            </a>
+          </li>
+        </div>
         {/* --------soita------- */}
-        <div className="info-soita"></div>
+        <div className="info-soita">
+          <li>
+            <a>
+              <BsTelephone />
+              010 7623510
+            </a>
+          </li>
+        </div>
         {/* ------------aikataulu-------- */}
         <div className="info-aikataulu"></div>
       </div>
