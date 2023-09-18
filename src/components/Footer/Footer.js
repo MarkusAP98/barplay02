@@ -5,7 +5,7 @@ import footerLogo from "../../assets/footer_logos/footerLogo.png";
 const Footer = () => {
   return (
     <div className="barplay__footer">
-      <div className="footer-section1">
+      <div className="footer-section">
         <img className="footer_logo" src={footerLogo}></img>
         <div className="footer-info">
           <h4>SOK Matkailu- & ravitsemiskaupan ketjuohjaus</h4>
