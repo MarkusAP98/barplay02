@@ -1,5 +1,6 @@
 .barplay__yhteistiedot {
     box-sizing: border-box;
+    color: white;
     
 }
 
@@ -10,3 +11,6 @@
     font-weight: 700;
     font-size: 34px;
  }
+
+ /* -------palautetta------- */
+ 
