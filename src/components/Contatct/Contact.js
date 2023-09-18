@@ -3,7 +3,9 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className='barplay__yhteistiedot'>
+    <h1>YHTEISTIEDOT</h1>
+    </div>
   )
 }
 
