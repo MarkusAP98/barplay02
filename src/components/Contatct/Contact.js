@@ -3,6 +3,7 @@ import "./Contact.css";
 import { AiFillFacebook, AiFillInstagram, AiFillMessage } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
 import { BsTelephone } from "react-icons/bs";
+import { AiOutlineClockCircle } from "react-icons/ai";
 const Contact = () => {
   return (
     <div className="barplay__yhteistiedot">
@@ -12,14 +13,14 @@ const Contact = () => {
           {/* ------------palautetta---------- */}
           <button className="info-btn">Anna Palautetta</button>
           <li>
-            <a>
-              <AiFillFacebook className="info_icon-fb" />
-            Facebook
+            <a classname="info-icon">
+              <AiFillFacebook className="info_icon-fb, info-icon" />
+              Facebook
             </a>
           </li>
           <li>
-            <a>
-              <AiFillInstagram className="info_icon-ig" />
+            <a classname="info-icon">
+              <AiFillInstagram className="info_icon-ig, info-icon" />
             </a>
             Instagram
           </li>
@@ -27,23 +28,33 @@ const Contact = () => {
         {/*--------karta--------- */}
         <div className="info-karta">
           <li>
-            <a>
-              <CiLocationOn />
-            Kauppakatu 23 B Joensuu
+            <a classname="info-icon">
+              <CiLocationOn className="info-icon" />
             </a>
+            <p>Kauppakatu 23 B Joensuu</p>
           </li>
         </div>
         {/* --------soita------- */}
         <div className="info-soita">
           <li>
-            <a>
-              <BsTelephone />
-              010 7623510
+            <a classname="info-icon">
+              <BsTelephone className="info-icon" />
             </a>
+            <p>010 7623510</p>
           </li>
         </div>
         {/* ------------aikataulu-------- */}
-        <div className="info-aikataulu"></div>
+        <div className="info-aikataulu">
+          <p>
+            Arkisin klo 18 jälkeen K18, viikonloppuisin ja tapahtumissa koko
+            päivän K18
+          </p>
+          <li>
+            <a classname="info-icon">
+              <AiOutlineClockCircle className="info-icon" />
+            </a>
+          </li>
+        </div>
       </div>
     </div>
   );
