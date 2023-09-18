@@ -11,6 +11,7 @@
     justify-content: space-between;
     margin: 0rem 2rem;
     padding-bottom: 3rem;
+    padding: 5rem;
 }
 
 .barplay__yhteistiedot h1 {
@@ -92,6 +93,12 @@
 
 .info-time-su {
     margin-left: 3.5rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .yhteistiedot__info {
+        padding: 0;
+    } 
 }
 
 @media screen and (max-width: 950px) {
