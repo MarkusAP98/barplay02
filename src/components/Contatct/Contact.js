@@ -7,7 +7,7 @@ import { AiOutlineClockCircle } from "react-icons/ai";
 const Contact = () => {
   return (
     <div className="barplay__yhteistiedot">
-      <h1>YHTEISTIEDOT</h1>
+      <h1>YHTEYSTIEDOT</h1>
       <div className="yhteistiedot__info">
         <div className="info-palautetta">
           {/* ------------palautetta---------- */}
